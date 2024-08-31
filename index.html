@@ -55,210 +55,1080 @@
 
   <body class="bg-background px-5 bored">
     <!-- Navbar -->
-    <div
-      class="container mx-auto max-w-7xl py-5 flex justify-between items-center"
-    >
-      <!-- Logo -->
-      <div>
-        <img
-          class="h-20 cursor-pointer"
-          src="https://raw.githubusercontent.com/Nayeem-33/asset-host/main/Elegent-Uni.png"
-          alt=""
-        />
-      </div>
-      <!-- Nav links -->
-      <nav class="hidden lg:block">
-        <ul class="text-primary flex gap-5 items-center">
-          <li class="cursor-pointer hover:text-hover hover:underline">
-            <a href="#">Home</a>
-          </li>
-          <li class="cursor-pointer hover:text-hover hover:underline">
-            <a href="#">Academic</a>
-          </li>
-          <li class="cursor-pointer hover:text-hover hover:underline">
-            <a href="#">Admission</a>
-          </li>
-          <li class="cursor-pointer hover:text-hover hover:underline">
-            <a href="#">About Us</a>
-          </li>
-          <li class="cursor-pointer hover:text-hover hover:underline">
-            <a href="#">Contact</a>
-          </li>
-          <li
-            class="cursor-pointer bg-secondary px-5 py-2 rounded-lg text-white hover:bg-hover"
-          >
-            <a href="#"></a>Login
-          </li>
-        </ul>
-      </nav>
-      <!-- Mobile Nav Icon -->
-      <div class="lg:hidden">
-        <div tabindex="0" role="button" class="text-primary">
-          <svg
-            stroke="currentColor"
-            fill="none"
-            stroke-width="1px"
-            viewBox="0 0 15 15"
-            height="20px"
-            width="20px"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M1.5 3C1.22386 3 1 3.22386 1 3.5C1 3.77614 1.22386 4 1.5 4H13.5C13.7761 4 14 3.77614 14 3.5C14 3.22386 13.7761 3 13.5 3H1.5ZM1 7.5C1 7.22386 1.22386 7 1.5 7H13.5C13.7761 7 14 7.22386 14 7.5C14 7.77614 13.7761 8 13.5 8H1.5C1.22386 8 1 7.77614 1 7.5ZM1 11.5C1 11.2239 1.22386 11 1.5 11H13.5C13.7761 11 14 11.2239 14 11.5C14 11.7761 13.7761 12 13.5 12H1.5C1.22386 12 1 11.7761 1 11.5Z"
-              fill="currentColor"
-            ></path>
-          </svg>
+    <header>
+      <div
+        class="container mx-auto max-w-7xl py-5 flex justify-between items-center"
+      >
+        <!-- Logo -->
+        <div>
+          <img
+            class="h-20 cursor-pointer"
+            src="https://raw.githubusercontent.com/Nayeem-33/asset-host/main/Elegent-Uni.png"
+            alt=""
+          />
         </div>
-        <ul tabindex="0" class="hidden">
-          <li class="cursor-pointer hover:text-hover hover:underline">
-            <a href="#">Home</a>
-          </li>
-          <li class="cursor-pointer hover:text-hover hover:underline">
-            <a href="#">Academic</a>
-          </li>
-          <li class="cursor-pointer hover:text-hover hover:underline">
-            <a href="#">Admission</a>
-          </li>
-          <li class="cursor-pointer hover:text-hover hover:underline">
-            <a href="#">About Us</a>
-          </li>
-          <li class="cursor-pointer hover:text-hover hover:underline">
-            <a href="#">Contact</a>
-          </li>
-          <li class="cursor-pointer hover:text-hover hover:underline">
-            <a href="#"></a>Login
-          </li>
-        </ul>
+        <!-- Nav links -->
+        <nav class="hidden lg:block">
+          <ul class="text-primary flex gap-5 items-center">
+            <li class="cursor-pointer hover:text-hover hover:underline">
+              <a href="#">Home</a>
+            </li>
+            <li class="cursor-pointer hover:text-hover hover:underline">
+              <a href="#">Academic</a>
+            </li>
+            <li class="cursor-pointer hover:text-hover hover:underline">
+              <a href="#">Admission</a>
+            </li>
+            <li class="cursor-pointer hover:text-hover hover:underline">
+              <a href="#">About Us</a>
+            </li>
+            <li class="cursor-pointer hover:text-hover hover:underline">
+              <a href="#">Contact</a>
+            </li>
+            <li
+              class="cursor-pointer bg-secondary px-5 py-2 rounded-lg text-white hover:bg-hover"
+            >
+              <a href="#"></a>Login
+            </li>
+          </ul>
+        </nav>
+        <!-- Mobile Nav Icon -->
+        <div class="lg:hidden">
+          <div tabindex="0" role="button" class="text-primary">
+            <svg
+              stroke="currentColor"
+              fill="none"
+              stroke-width="1px"
+              viewBox="0 0 15 15"
+              height="20px"
+              width="20px"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M1.5 3C1.22386 3 1 3.22386 1 3.5C1 3.77614 1.22386 4 1.5 4H13.5C13.7761 4 14 3.77614 14 3.5C14 3.22386 13.7761 3 13.5 3H1.5ZM1 7.5C1 7.22386 1.22386 7 1.5 7H13.5C13.7761 7 14 7.22386 14 7.5C14 7.77614 13.7761 8 13.5 8H1.5C1.22386 8 1 7.77614 1 7.5ZM1 11.5C1 11.2239 1.22386 11 1.5 11H13.5C13.7761 11 14 11.2239 14 11.5C14 11.7761 13.7761 12 13.5 12H1.5C1.22386 12 1 11.7761 1 11.5Z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </div>
+          <ul tabindex="0" class="hidden">
+            <li class="cursor-pointer hover:text-hover hover:underline">
+              <a href="#">Home</a>
+            </li>
+            <li class="cursor-pointer hover:text-hover hover:underline">
+              <a href="#">Academic</a>
+            </li>
+            <li class="cursor-pointer hover:text-hover hover:underline">
+              <a href="#">Admission</a>
+            </li>
+            <li class="cursor-pointer hover:text-hover hover:underline">
+              <a href="#">About Us</a>
+            </li>
+            <li class="cursor-pointer hover:text-hover hover:underline">
+              <a href="#">Contact</a>
+            </li>
+            <li class="cursor-pointer hover:text-hover hover:underline">
+              <a href="#"></a>Login
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </header>
     <!-- Navbar End -->
-    <!-- Hero -->
-    <div
-      class="container mx-auto max-w-7xl rounded-xl bg-center bg-cover"
-      style="
-        background-image: url('https://images.pexels.com/photos/2982449/pexels-photo-2982449.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-      "
-    >
-      <div class="bg-sky-950/75 rounded-xl">
-        <div class="py-52 flex flex-col gap-6 items-center justify-center">
-          <h1 class="font-extrabold text-secondary text-6xl text-center">
-            Elegent University
+    <main>
+      <!-- Hero -->
+      <div
+        class="container mx-auto max-w-7xl rounded-xl bg-center bg-cover"
+        style="
+          background-image: url('https://images.pexels.com/photos/2982449/pexels-photo-2982449.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+        "
+      >
+        <div class="bg-sky-950/75 rounded-xl">
+          <div class="py-52 flex flex-col gap-6 items-center justify-center">
+            <h1 class="font-extrabold text-secondary text-6xl text-center">
+              Elegent University
+            </h1>
+            <p class="text-center text-white w-11/12 lg:w-2/3">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
+              unde animi, vitae ab reiciendis eaque quis adipisci placeat
+              aspernatur. Quae, omnis! Repellendus rerum sint soluta cupiditate
+              ipsam, quod error vero.
+            </p>
+            <div class="flex gap-5 text-xl font-bold">
+              <div
+                class="cursor-pointer bg-secondary px-5 py-2 rounded-lg text-white hover:bg-hover"
+              >
+                <a href="#">Enroll Today</a>
+              </div>
+              <div
+                class="cursor-pointer border-2 border-accent px-5 py-2 rounded-lg text-accent hover:bg-hover hover:text-white"
+              >
+                <a href="#">Explore More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Hero End -->
+      <!-- Dean's Massage -->
+      <div class="container mx-auto max-w-7xl py-10 lg:py-28">
+        <div
+          class="flex flex-col gap-6 items-center justify-center mb-60 lg:mb-20"
+        >
+          <h1 class="font-extrabold text-secondary text-5xl text-center">
+            Important Massage
           </h1>
-          <p class="text-center text-white w-11/12 lg:w-2/3">
+          <p class="text-center w-11/12 lg:w-2/3">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa unde
             animi, vitae ab reiciendis eaque quis adipisci placeat aspernatur.
-            Quae, omnis! Repellendus rerum sint soluta cupiditate ipsam, quod
-            error vero.
           </p>
-          <div class="flex gap-5 text-xl font-bold">
-            <div
-              class="cursor-pointer bg-secondary px-5 py-2 rounded-lg text-white hover:bg-hover"
-            >
-              <a href="#">Enroll Today</a>
-            </div>
-            <div
-              class="cursor-pointer border-2 border-accent px-5 py-2 rounded-lg text-accent hover:bg-hover hover:text-white"
-            >
-              <a href="#">Explore More</a>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-    <!-- Hero End -->
-    <!-- Dean's Massage -->
-    <div class="container mx-auto max-w-7xl py-10 lg:py-28">
-      <div
-        class="flex flex-col gap-6 items-center justify-center mb-60 lg:mb-20"
-      >
-        <h1 class="font-extrabold text-secondary text-5xl text-center">
-          Important Massage
-        </h1>
-        <p class="text-center w-11/12 lg:w-2/3">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa unde
-          animi, vitae ab reiciendis eaque quis adipisci placeat aspernatur.
-        </p>
-      </div>
 
-      <div
-        class="bg-white p-5 lg:p-10 pt-56 lg:pt-10 lg:pl-80 2xl:pl-[450] ml-0 lg:ml-20 xl:ml-40 rounded-xl relative"
-      >
         <div
-          class="bg-secondary rounded-xl absolute -top-48 lg:-top-10 left-1/2 transform -translate-x-1/2 lg:translate-x-0 lg:-left-20 xl:-left-40 w-3/5 lg:w-2/5 p-5"
+          class="bg-white p-5 lg:p-10 pt-56 lg:pt-10 lg:pl-80 2xl:pl-[450] ml-0 lg:ml-20 xl:ml-40 rounded-xl relative"
         >
-          <div>
-            <img
-              class="rounded-lg"
-              src="https://getweeklyupdate.com/blog/wp-content/uploads/2018/02/27.jpg"
-              alt=""
-            />
-          </div>
-          <div class="mt-3">
-            <h2 class="text-center font-extrabold text-2xl text-white">
-              Mohammed Fazlul Haque
-            </h2>
-            <p class="text-center font-bold text-lg text-white">
-              Important Person
-            </p>
-          </div>
-        </div>
-        <p class="text-justify leading-relaxed md:leading-loose">
-          Dear Students, Faculty, and Visitors, <br /><br />
-          Welcome to Elegant University, where tradition meets innovation, and
-          the pursuit of knowledge is paired with a dedication to shaping the
-          future. As the Vice-Chancellor, I am honored to lead a community
-          committed to excellence in teaching, research, and service. <br />
-          At Elegant University, we cultivate an environment where creativity
-          and critical thinking flourish. Our faculty are not only experts in
-          their fields but also passionate educators, devoted to guiding our
-          students on their academic and professional journeys. We encourage our
-          students to challenge the status quo, think globally, and act with
-          integrity and responsibility. <br />
-          Thank you for visiting our website. I invite you to explore the many
-          opportunities and resources that Elegant University offers. Together,
-          we can continue to make a positive impact on society and inspire the
-          next generation of leaders. <br /><br />
-          Warm regards, <br />
-          <strong
-            >Abul Hasnat Chowdhury <br />
-            Vice-Chancellor <br />
-            Elegant University</strong
+          <div
+            class="bg-secondary rounded-xl absolute -top-48 lg:-top-10 left-1/2 transform -translate-x-1/2 lg:translate-x-0 lg:-left-20 xl:-left-40 w-3/5 lg:w-2/5 p-5"
           >
-        </p>
-      </div>
-    </div>
-    <!-- Notice Board -->
-    <div class="container mx-auto max-w-7xl py-10 lg:py-28">
-      <div class="flex flex-col gap-6 items-center justify-center">
-        <h1 class="font-extrabold text-secondary text-5xl text-center">
-          Notice Board
-        </h1>
-        <p class="text-center w-11/12 lg:w-2/3">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa unde
-          animi, vitae ab reiciendis eaque quis adipisci placeat aspernatur.
-        </p>
-      </div>
-      <div>
-        <div class="bg-base-100 w-96 shadow-xl">
-          <figure>
-            <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-              alt="Shoes"
-            />
-          </figure>
-          <div class="p">
-            <h2 class="">Admission 2024!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div
-              class="cursor-pointer bg-secondary px-5 py-2 rounded-lg text-white hover:bg-hover"
+            <div>
+              <img
+                class="rounded-lg"
+                src="https://getweeklyupdate.com/blog/wp-content/uploads/2018/02/27.jpg"
+                alt=""
+              />
+            </div>
+            <div class="mt-3">
+              <h2 class="text-center font-extrabold text-2xl text-white">
+                Mohammed Fazlul Haque
+              </h2>
+              <p class="text-center font-bold text-lg text-white">
+                Important Person
+              </p>
+            </div>
+          </div>
+          <p class="text-justify leading-relaxed md:leading-loose">
+            Dear Students, Faculty, and Visitors, <br /><br />
+            Welcome to Elegant University, where tradition meets innovation, and
+            the pursuit of knowledge is paired with a dedication to shaping the
+            future. As the Vice-Chancellor, I am honored to lead a community
+            committed to excellence in teaching, research, and service. <br />
+            At Elegant University, we cultivate an environment where creativity
+            and critical thinking flourish. Our faculty are not only experts in
+            their fields but also passionate educators, devoted to guiding our
+            students on their academic and professional journeys. We encourage
+            our students to challenge the status quo, think globally, and act
+            with integrity and responsibility. <br />
+            Thank you for visiting our website. I invite you to explore the many
+            opportunities and resources that Elegant University offers.
+            Together, we can continue to make a positive impact on society and
+            inspire the next generation of leaders. <br /><br />
+            Warm regards, <br />
+            <strong
+              >Abul Hasnat Chowdhury <br />
+              Vice-Chancellor <br />
+              Elegant University</strong
             >
-              <a href="#">Read More</a>
+          </p>
+        </div>
+      </div>
+      <!-- News & Updates -->
+      <div class="container mx-auto max-w-7xl py-10 lg:py-28">
+        <div class="flex flex-col gap-6 items-center justify-center">
+          <h1 class="font-extrabold text-secondary text-5xl text-center">
+            News & Updates
+          </h1>
+          <p class="text-center w-11/12 lg:w-2/3">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa unde
+            animi, vitae ab reiciendis emet consectetur eaque quis adipiaque
+            quis adipisci placeat aspernatur.
+          </p>
+        </div>
+        <div
+          class="mt-5 lg:mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+        >
+          <!-- News - 1 -->
+          <div class="bg-white w-96 shadow-xl rounded-xl">
+            <figure>
+              <img
+                class="rounded-tl-xl rounded-tr-xl"
+                src="https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg"
+                alt="Notice"
+              />
+            </figure>
+            <div class="p-4">
+              <div class="flex items-center">
+                <figure>
+                  <svg
+                    class="text-gray-600 mr-2"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 1024 1024"
+                    height="15px"
+                    width="15px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M960 95.888l-256.224.001V32.113c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76h-256v-63.76c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76H64c-35.344 0-64 28.656-64 64v800c0 35.343 28.656 64 64 64h896c35.344 0 64-28.657 64-64v-800c0-35.329-28.656-63.985-64-63.985zm0 863.985H64v-800h255.776v32.24c0 17.679 14.32 32 32 32s32-14.321 32-32v-32.224h256v32.24c0 17.68 14.32 32 32 32s32-14.32 32-32v-32.24H960v799.984zM736 511.888h64c17.664 0 32-14.336 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32zm0 255.984h64c17.664 0 32-14.32 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.696 14.336 32 32 32zm-192-128h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32zm0-255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32zm-256 0h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32zm0 255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32z"
+                    ></path>
+                  </svg>
+                </figure>
+                <p class="text-sm text-gray-600">21 Apr, 2024</p>
+                <figure>
+                  <svg
+                    class="text-gray-600 ml-4 mr-2"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    height="15px"
+                    width="15px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="Clock_2">
+                      <g>
+                        <path
+                          d="M12,21.933A9.933,9.933,0,1,1,21.933,12,9.944,9.944,0,0,1,12,21.933ZM12,3.067A8.933,8.933,0,1,0,20.933,12,8.943,8.943,0,0,0,12,3.067Z"
+                        ></path>
+                        <path
+                          d="M18,12.5H12a.429.429,0,0,1-.34-.14c-.01,0-.01-.01-.02-.02A.429.429,0,0,1,11.5,12V6a.5.5,0,0,1,1,0v5.5H18A.5.5,0,0,1,18,12.5Z"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </figure>
+                <p class="text-sm text-gray-600">21 Apr, 2024</p>
+              </div>
+              <h2 class="mt-4 font-bold text-2xl">Best University Awards!</h2>
+              <p class="mt-2">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit
+                eius iure mollitia voluptatum reprehenderit accusamus. Suscipit
+                provident tempore qui hic.?
+              </p>
+              <div
+                class="text-center font-bold mt-5 cursor-pointer bg-secondary px-5 py-2 rounded-lg text-white hover:bg-hover"
+              >
+                <a href="#">Read More...</a>
+              </div>
+            </div>
+          </div>
+          <!-- News - 1 -->
+          <div class="bg-white w-96 shadow-xl rounded-xl">
+            <figure>
+              <img
+                class="rounded-tl-xl rounded-tr-xl"
+                src="https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg"
+                alt="Notice"
+              />
+            </figure>
+            <div class="p-4">
+              <div class="flex items-center">
+                <figure>
+                  <svg
+                    class="text-gray-600 mr-2"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 1024 1024"
+                    height="15px"
+                    width="15px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M960 95.888l-256.224.001V32.113c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76h-256v-63.76c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76H64c-35.344 0-64 28.656-64 64v800c0 35.343 28.656 64 64 64h896c35.344 0 64-28.657 64-64v-800c0-35.329-28.656-63.985-64-63.985zm0 863.985H64v-800h255.776v32.24c0 17.679 14.32 32 32 32s32-14.321 32-32v-32.224h256v32.24c0 17.68 14.32 32 32 32s32-14.32 32-32v-32.24H960v799.984zM736 511.888h64c17.664 0 32-14.336 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32zm0 255.984h64c17.664 0 32-14.32 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.696 14.336 32 32 32zm-192-128h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32zm0-255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32zm-256 0h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32zm0 255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32z"
+                    ></path>
+                  </svg>
+                </figure>
+                <p class="text-sm text-gray-600">21 Apr, 2024</p>
+                <figure>
+                  <svg
+                    class="text-gray-600 ml-4 mr-2"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    height="15px"
+                    width="15px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="Clock_2">
+                      <g>
+                        <path
+                          d="M12,21.933A9.933,9.933,0,1,1,21.933,12,9.944,9.944,0,0,1,12,21.933ZM12,3.067A8.933,8.933,0,1,0,20.933,12,8.943,8.943,0,0,0,12,3.067Z"
+                        ></path>
+                        <path
+                          d="M18,12.5H12a.429.429,0,0,1-.34-.14c-.01,0-.01-.01-.02-.02A.429.429,0,0,1,11.5,12V6a.5.5,0,0,1,1,0v5.5H18A.5.5,0,0,1,18,12.5Z"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </figure>
+                <p class="text-sm text-gray-600">21 Apr, 2024</p>
+              </div>
+              <h2 class="mt-4 font-bold text-2xl">Best University Awards!</h2>
+              <p class="mt-2">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit
+                eius iure mollitia voluptatum reprehenderit accusamus. Suscipit
+                provident tempore qui hic.?
+              </p>
+              <div
+                class="text-center font-bold mt-5 cursor-pointer bg-secondary px-5 py-2 rounded-lg text-white hover:bg-hover"
+              >
+                <a href="#">Read More...</a>
+              </div>
+            </div>
+          </div>
+          <!-- News - 2 -->
+          <div class="bg-white w-96 shadow-xl rounded-xl">
+            <figure>
+              <img
+                class="rounded-tl-xl rounded-tr-xl"
+                src="https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg"
+                alt="Notice"
+              />
+            </figure>
+            <div class="p-4">
+              <div class="flex items-center">
+                <figure>
+                  <svg
+                    class="text-gray-600 mr-2"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 1024 1024"
+                    height="15px"
+                    width="15px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M960 95.888l-256.224.001V32.113c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76h-256v-63.76c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76H64c-35.344 0-64 28.656-64 64v800c0 35.343 28.656 64 64 64h896c35.344 0 64-28.657 64-64v-800c0-35.329-28.656-63.985-64-63.985zm0 863.985H64v-800h255.776v32.24c0 17.679 14.32 32 32 32s32-14.321 32-32v-32.224h256v32.24c0 17.68 14.32 32 32 32s32-14.32 32-32v-32.24H960v799.984zM736 511.888h64c17.664 0 32-14.336 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32zm0 255.984h64c17.664 0 32-14.32 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.696 14.336 32 32 32zm-192-128h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32zm0-255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32zm-256 0h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32zm0 255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32z"
+                    ></path>
+                  </svg>
+                </figure>
+                <p class="text-sm text-gray-600">21 Apr, 2024</p>
+                <figure>
+                  <svg
+                    class="text-gray-600 ml-4 mr-2"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    height="15px"
+                    width="15px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="Clock_2">
+                      <g>
+                        <path
+                          d="M12,21.933A9.933,9.933,0,1,1,21.933,12,9.944,9.944,0,0,1,12,21.933ZM12,3.067A8.933,8.933,0,1,0,20.933,12,8.943,8.943,0,0,0,12,3.067Z"
+                        ></path>
+                        <path
+                          d="M18,12.5H12a.429.429,0,0,1-.34-.14c-.01,0-.01-.01-.02-.02A.429.429,0,0,1,11.5,12V6a.5.5,0,0,1,1,0v5.5H18A.5.5,0,0,1,18,12.5Z"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </figure>
+                <p class="text-sm text-gray-600">21 Apr, 2024</p>
+              </div>
+              <h2 class="mt-4 font-bold text-2xl">Best University Awards!</h2>
+              <p class="mt-2">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit
+                eius iure mollitia voluptatum reprehenderit accusamus. Suscipit
+                provident tempore qui hic.?
+              </p>
+              <div
+                class="text-center font-bold mt-5 cursor-pointer bg-secondary px-5 py-2 rounded-lg text-white hover:bg-hover"
+              >
+                <a href="#">Read More...</a>
+              </div>
+            </div>
+          </div>
+          <!-- News - 3 -->
+          <div class="bg-white w-96 shadow-xl rounded-xl">
+            <figure>
+              <img
+                class="rounded-tl-xl rounded-tr-xl"
+                src="https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg"
+                alt="Notice"
+              />
+            </figure>
+            <div class="p-4">
+              <div class="flex items-center">
+                <figure>
+                  <svg
+                    class="text-gray-600 mr-2"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 1024 1024"
+                    height="15px"
+                    width="15px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M960 95.888l-256.224.001V32.113c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76h-256v-63.76c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76H64c-35.344 0-64 28.656-64 64v800c0 35.343 28.656 64 64 64h896c35.344 0 64-28.657 64-64v-800c0-35.329-28.656-63.985-64-63.985zm0 863.985H64v-800h255.776v32.24c0 17.679 14.32 32 32 32s32-14.321 32-32v-32.224h256v32.24c0 17.68 14.32 32 32 32s32-14.32 32-32v-32.24H960v799.984zM736 511.888h64c17.664 0 32-14.336 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32zm0 255.984h64c17.664 0 32-14.32 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.696 14.336 32 32 32zm-192-128h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32zm0-255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32zm-256 0h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32zm0 255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32z"
+                    ></path>
+                  </svg>
+                </figure>
+                <p class="text-sm text-gray-600">21 Apr, 2024</p>
+                <figure>
+                  <svg
+                    class="text-gray-600 ml-4 mr-2"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    height="15px"
+                    width="15px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="Clock_2">
+                      <g>
+                        <path
+                          d="M12,21.933A9.933,9.933,0,1,1,21.933,12,9.944,9.944,0,0,1,12,21.933ZM12,3.067A8.933,8.933,0,1,0,20.933,12,8.943,8.943,0,0,0,12,3.067Z"
+                        ></path>
+                        <path
+                          d="M18,12.5H12a.429.429,0,0,1-.34-.14c-.01,0-.01-.01-.02-.02A.429.429,0,0,1,11.5,12V6a.5.5,0,0,1,1,0v5.5H18A.5.5,0,0,1,18,12.5Z"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </figure>
+                <p class="text-sm text-gray-600">21 Apr, 2024</p>
+              </div>
+              <h2 class="mt-4 font-bold text-2xl">Best University Awards!</h2>
+              <p class="mt-2">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit
+                eius iure mollitia voluptatum reprehenderit accusamus. Suscipit
+                provident tempore qui hic.?
+              </p>
+              <div
+                class="text-center font-bold mt-5 cursor-pointer bg-secondary px-5 py-2 rounded-lg text-white hover:bg-hover"
+              >
+                <a href="#">Read More...</a>
+              </div>
+            </div>
+          </div>
+          <!-- News - 4 -->
+          <div class="bg-white w-96 shadow-xl rounded-xl">
+            <figure>
+              <img
+                class="rounded-tl-xl rounded-tr-xl"
+                src="https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg"
+                alt="Notice"
+              />
+            </figure>
+            <div class="p-4">
+              <div class="flex items-center">
+                <figure>
+                  <svg
+                    class="text-gray-600 mr-2"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 1024 1024"
+                    height="15px"
+                    width="15px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M960 95.888l-256.224.001V32.113c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76h-256v-63.76c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76H64c-35.344 0-64 28.656-64 64v800c0 35.343 28.656 64 64 64h896c35.344 0 64-28.657 64-64v-800c0-35.329-28.656-63.985-64-63.985zm0 863.985H64v-800h255.776v32.24c0 17.679 14.32 32 32 32s32-14.321 32-32v-32.224h256v32.24c0 17.68 14.32 32 32 32s32-14.32 32-32v-32.24H960v799.984zM736 511.888h64c17.664 0 32-14.336 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32zm0 255.984h64c17.664 0 32-14.32 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.696 14.336 32 32 32zm-192-128h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32zm0-255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32zm-256 0h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32zm0 255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32z"
+                    ></path>
+                  </svg>
+                </figure>
+                <p class="text-sm text-gray-600">21 Apr, 2024</p>
+                <figure>
+                  <svg
+                    class="text-gray-600 ml-4 mr-2"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    height="15px"
+                    width="15px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="Clock_2">
+                      <g>
+                        <path
+                          d="M12,21.933A9.933,9.933,0,1,1,21.933,12,9.944,9.944,0,0,1,12,21.933ZM12,3.067A8.933,8.933,0,1,0,20.933,12,8.943,8.943,0,0,0,12,3.067Z"
+                        ></path>
+                        <path
+                          d="M18,12.5H12a.429.429,0,0,1-.34-.14c-.01,0-.01-.01-.02-.02A.429.429,0,0,1,11.5,12V6a.5.5,0,0,1,1,0v5.5H18A.5.5,0,0,1,18,12.5Z"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </figure>
+                <p class="text-sm text-gray-600">21 Apr, 2024</p>
+              </div>
+              <h2 class="mt-4 font-bold text-2xl">Best University Awards!</h2>
+              <p class="mt-2">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit
+                eius iure mollitia voluptatum reprehenderit accusamus. Suscipit
+                provident tempore qui hic.?
+              </p>
+              <div
+                class="text-center font-bold mt-5 cursor-pointer bg-secondary px-5 py-2 rounded-lg text-white hover:bg-hover"
+              >
+                <a href="#">Read More...</a>
+              </div>
+            </div>
+          </div>
+          <!-- News - 5 -->
+          <div class="bg-white w-96 shadow-xl rounded-xl">
+            <figure>
+              <img
+                class="rounded-tl-xl rounded-tr-xl"
+                src="https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg"
+                alt="Notice"
+              />
+            </figure>
+            <div class="p-4">
+              <div class="flex items-center">
+                <figure>
+                  <svg
+                    class="text-gray-600 mr-2"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 1024 1024"
+                    height="15px"
+                    width="15px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M960 95.888l-256.224.001V32.113c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76h-256v-63.76c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76H64c-35.344 0-64 28.656-64 64v800c0 35.343 28.656 64 64 64h896c35.344 0 64-28.657 64-64v-800c0-35.329-28.656-63.985-64-63.985zm0 863.985H64v-800h255.776v32.24c0 17.679 14.32 32 32 32s32-14.321 32-32v-32.224h256v32.24c0 17.68 14.32 32 32 32s32-14.32 32-32v-32.24H960v799.984zM736 511.888h64c17.664 0 32-14.336 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32zm0 255.984h64c17.664 0 32-14.32 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.696 14.336 32 32 32zm-192-128h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32zm0-255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32zm-256 0h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32zm0 255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32z"
+                    ></path>
+                  </svg>
+                </figure>
+                <p class="text-sm text-gray-600">21 Apr, 2024</p>
+                <figure>
+                  <svg
+                    class="text-gray-600 ml-4 mr-2"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    height="15px"
+                    width="15px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="Clock_2">
+                      <g>
+                        <path
+                          d="M12,21.933A9.933,9.933,0,1,1,21.933,12,9.944,9.944,0,0,1,12,21.933ZM12,3.067A8.933,8.933,0,1,0,20.933,12,8.943,8.943,0,0,0,12,3.067Z"
+                        ></path>
+                        <path
+                          d="M18,12.5H12a.429.429,0,0,1-.34-.14c-.01,0-.01-.01-.02-.02A.429.429,0,0,1,11.5,12V6a.5.5,0,0,1,1,0v5.5H18A.5.5,0,0,1,18,12.5Z"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </figure>
+                <p class="text-sm text-gray-600">21 Apr, 2024</p>
+              </div>
+              <h2 class="mt-4 font-bold text-2xl">Best University Awards!</h2>
+              <p class="mt-2">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit
+                eius iure mollitia voluptatum reprehenderit accusamus. Suscipit
+                provident tempore qui hic.?
+              </p>
+              <div
+                class="text-center font-bold mt-5 cursor-pointer bg-secondary px-5 py-2 rounded-lg text-white hover:bg-hover"
+              >
+                <a href="#">Read More...</a>
+              </div>
+            </div>
+          </div>
+          <!-- News - 6 -->
+          <div class="bg-white w-96 shadow-xl rounded-xl">
+            <figure>
+              <img
+                class="rounded-tl-xl rounded-tr-xl"
+                src="https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg"
+                alt="Notice"
+              />
+            </figure>
+            <div class="p-4">
+              <div class="flex items-center">
+                <figure>
+                  <svg
+                    class="text-gray-600 mr-2"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 1024 1024"
+                    height="15px"
+                    width="15px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M960 95.888l-256.224.001V32.113c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76h-256v-63.76c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76H64c-35.344 0-64 28.656-64 64v800c0 35.343 28.656 64 64 64h896c35.344 0 64-28.657 64-64v-800c0-35.329-28.656-63.985-64-63.985zm0 863.985H64v-800h255.776v32.24c0 17.679 14.32 32 32 32s32-14.321 32-32v-32.224h256v32.24c0 17.68 14.32 32 32 32s32-14.32 32-32v-32.24H960v799.984zM736 511.888h64c17.664 0 32-14.336 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32zm0 255.984h64c17.664 0 32-14.32 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.696 14.336 32 32 32zm-192-128h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32zm0-255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32zm-256 0h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32zm0 255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32z"
+                    ></path>
+                  </svg>
+                </figure>
+                <p class="text-sm text-gray-600">21 Apr, 2024</p>
+                <figure>
+                  <svg
+                    class="text-gray-600 ml-4 mr-2"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    height="15px"
+                    width="15px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="Clock_2">
+                      <g>
+                        <path
+                          d="M12,21.933A9.933,9.933,0,1,1,21.933,12,9.944,9.944,0,0,1,12,21.933ZM12,3.067A8.933,8.933,0,1,0,20.933,12,8.943,8.943,0,0,0,12,3.067Z"
+                        ></path>
+                        <path
+                          d="M18,12.5H12a.429.429,0,0,1-.34-.14c-.01,0-.01-.01-.02-.02A.429.429,0,0,1,11.5,12V6a.5.5,0,0,1,1,0v5.5H18A.5.5,0,0,1,18,12.5Z"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </figure>
+                <p class="text-sm text-gray-600">21 Apr, 2024</p>
+              </div>
+              <h2 class="mt-4 font-bold text-2xl">Best University Awards!</h2>
+              <p class="mt-2">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit
+                eius iure mollitia voluptatum reprehenderit accusamus. Suscipit
+                provident tempore qui hic.?
+              </p>
+              <div
+                class="text-center font-bold mt-5 cursor-pointer bg-secondary px-5 py-2 rounded-lg text-white hover:bg-hover"
+              >
+                <a href="#">Read More...</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+      <!-- News & Updates -->
+
+      <!-- Notice Board -->
+      <div class="container mx-auto max-w-7xl py-10 lg:py-28">
+        <div class="flex flex-col gap-6 items-center justify-center">
+          <h1 class="font-extrabold text-secondary text-5xl text-center">
+            Notice Board
+          </h1>
+          <p class="text-center w-11/12 lg:w-2/3">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa unde
+            animi, vitae ab reiciendis eaque quis adipisci placeat aspernatur.
+          </p>
+        </div>
+        <div
+          class="mt-5 lg:mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+        >
+          <!-- Notice - 1 -->
+          <div class="bg-white w-96 shadow-xl rounded-xl">
+            <figure>
+              <img
+                class="rounded-tl-xl rounded-tr-xl"
+                src="https://images.template.net/wp-content/uploads/2017/05/fimg-notice1.jpg"
+                alt="Notice"
+              />
+            </figure>
+            <div class="p-4">
+              <div class="flex items-center">
+                <figure>
+                  <svg
+                    class="text-gray-600 mr-2"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 1024 1024"
+                    height="15px"
+                    width="15px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M960 95.888l-256.224.001V32.113c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76h-256v-63.76c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76H64c-35.344 0-64 28.656-64 64v800c0 35.343 28.656 64 64 64h896c35.344 0 64-28.657 64-64v-800c0-35.329-28.656-63.985-64-63.985zm0 863.985H64v-800h255.776v32.24c0 17.679 14.32 32 32 32s32-14.321 32-32v-32.224h256v32.24c0 17.68 14.32 32 32 32s32-14.32 32-32v-32.24H960v799.984zM736 511.888h64c17.664 0 32-14.336 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32zm0 255.984h64c17.664 0 32-14.32 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.696 14.336 32 32 32zm-192-128h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32zm0-255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32zm-256 0h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32zm0 255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32z"
+                    ></path>
+                  </svg>
+                </figure>
+                <p class="text-sm text-gray-600">21 Apr, 2024</p>
+                <figure>
+                  <svg
+                    class="text-gray-600 ml-4 mr-2"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    height="15px"
+                    width="15px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="Clock_2">
+                      <g>
+                        <path
+                          d="M12,21.933A9.933,9.933,0,1,1,21.933,12,9.944,9.944,0,0,1,12,21.933ZM12,3.067A8.933,8.933,0,1,0,20.933,12,8.943,8.943,0,0,0,12,3.067Z"
+                        ></path>
+                        <path
+                          d="M18,12.5H12a.429.429,0,0,1-.34-.14c-.01,0-.01-.01-.02-.02A.429.429,0,0,1,11.5,12V6a.5.5,0,0,1,1,0v5.5H18A.5.5,0,0,1,18,12.5Z"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </figure>
+                <p class="text-sm text-gray-600">21 Apr, 2024</p>
+              </div>
+              <h2 class="mt-4 font-bold text-2xl">Admission 2024!</h2>
+              <p class="mt-2">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit
+                eius iure mollitia voluptatum reprehenderit accusamus. Suscipit
+                provident tempore qui hic.?
+              </p>
+              <div
+                class="text-center font-bold mt-5 cursor-pointer bg-secondary px-5 py-2 rounded-lg text-white hover:bg-hover"
+              >
+                <a href="#">Read More...</a>
+              </div>
+            </div>
+          </div>
+          <!-- Notice - 2 -->
+          <div class="bg-white w-96 shadow-xl rounded-xl">
+            <figure>
+              <img
+                class="rounded-tl-xl rounded-tr-xl"
+                src="https://images.template.net/wp-content/uploads/2017/05/fimg-notice1.jpg"
+                alt="Notice"
+              />
+            </figure>
+            <div class="p-4">
+              <div class="flex items-center">
+                <figure>
+                  <svg
+                    class="text-gray-600 mr-2"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 1024 1024"
+                    height="15px"
+                    width="15px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M960 95.888l-256.224.001V32.113c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76h-256v-63.76c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76H64c-35.344 0-64 28.656-64 64v800c0 35.343 28.656 64 64 64h896c35.344 0 64-28.657 64-64v-800c0-35.329-28.656-63.985-64-63.985zm0 863.985H64v-800h255.776v32.24c0 17.679 14.32 32 32 32s32-14.321 32-32v-32.224h256v32.24c0 17.68 14.32 32 32 32s32-14.32 32-32v-32.24H960v799.984zM736 511.888h64c17.664 0 32-14.336 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32zm0 255.984h64c17.664 0 32-14.32 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.696 14.336 32 32 32zm-192-128h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32zm0-255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32zm-256 0h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32zm0 255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32z"
+                    ></path>
+                  </svg>
+                </figure>
+                <p class="text-sm text-gray-600">21 Apr, 2024</p>
+                <figure>
+                  <svg
+                    class="text-gray-600 ml-4 mr-2"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    height="15px"
+                    width="15px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="Clock_2">
+                      <g>
+                        <path
+                          d="M12,21.933A9.933,9.933,0,1,1,21.933,12,9.944,9.944,0,0,1,12,21.933ZM12,3.067A8.933,8.933,0,1,0,20.933,12,8.943,8.943,0,0,0,12,3.067Z"
+                        ></path>
+                        <path
+                          d="M18,12.5H12a.429.429,0,0,1-.34-.14c-.01,0-.01-.01-.02-.02A.429.429,0,0,1,11.5,12V6a.5.5,0,0,1,1,0v5.5H18A.5.5,0,0,1,18,12.5Z"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </figure>
+                <p class="text-sm text-gray-600">21 Apr, 2024</p>
+              </div>
+              <h2 class="mt-4 font-bold text-2xl">Admission 2024!</h2>
+              <p class="mt-2">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit
+                eius iure mollitia voluptatum reprehenderit accusamus. Suscipit
+                provident tempore qui hic.?
+              </p>
+              <div
+                class="text-center font-bold mt-5 cursor-pointer bg-secondary px-5 py-2 rounded-lg text-white hover:bg-hover"
+              >
+                <a href="#">Read More...</a>
+              </div>
+            </div>
+          </div>
+          <!-- Notice - 3 -->
+          <div class="bg-white w-96 shadow-xl rounded-xl">
+            <figure>
+              <img
+                class="rounded-tl-xl rounded-tr-xl"
+                src="https://images.template.net/wp-content/uploads/2017/05/fimg-notice1.jpg"
+                alt="Notice"
+              />
+            </figure>
+            <div class="p-4">
+              <div class="flex items-center">
+                <figure>
+                  <svg
+                    class="text-gray-600 mr-2"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 1024 1024"
+                    height="15px"
+                    width="15px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M960 95.888l-256.224.001V32.113c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76h-256v-63.76c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76H64c-35.344 0-64 28.656-64 64v800c0 35.343 28.656 64 64 64h896c35.344 0 64-28.657 64-64v-800c0-35.329-28.656-63.985-64-63.985zm0 863.985H64v-800h255.776v32.24c0 17.679 14.32 32 32 32s32-14.321 32-32v-32.224h256v32.24c0 17.68 14.32 32 32 32s32-14.32 32-32v-32.24H960v799.984zM736 511.888h64c17.664 0 32-14.336 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32zm0 255.984h64c17.664 0 32-14.32 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.696 14.336 32 32 32zm-192-128h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32zm0-255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32zm-256 0h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32zm0 255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32z"
+                    ></path>
+                  </svg>
+                </figure>
+                <p class="text-sm text-gray-600">21 Apr, 2024</p>
+                <figure>
+                  <svg
+                    class="text-gray-600 ml-4 mr-2"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    height="15px"
+                    width="15px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="Clock_2">
+                      <g>
+                        <path
+                          d="M12,21.933A9.933,9.933,0,1,1,21.933,12,9.944,9.944,0,0,1,12,21.933ZM12,3.067A8.933,8.933,0,1,0,20.933,12,8.943,8.943,0,0,0,12,3.067Z"
+                        ></path>
+                        <path
+                          d="M18,12.5H12a.429.429,0,0,1-.34-.14c-.01,0-.01-.01-.02-.02A.429.429,0,0,1,11.5,12V6a.5.5,0,0,1,1,0v5.5H18A.5.5,0,0,1,18,12.5Z"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </figure>
+                <p class="text-sm text-gray-600">21 Apr, 2024</p>
+              </div>
+              <h2 class="mt-4 font-bold text-2xl">Admission 2024!</h2>
+              <p class="mt-2">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit
+                eius iure mollitia voluptatum reprehenderit accusamus. Suscipit
+                provident tempore qui hic.?
+              </p>
+              <div
+                class="text-center font-bold mt-5 cursor-pointer bg-secondary px-5 py-2 rounded-lg text-white hover:bg-hover"
+              >
+                <a href="#">Read More...</a>
+              </div>
+            </div>
+          </div>
+          <!-- Notice - 4 -->
+          <div class="bg-white w-96 shadow-xl rounded-xl">
+            <figure>
+              <img
+                class="rounded-tl-xl rounded-tr-xl"
+                src="https://images.template.net/wp-content/uploads/2017/05/fimg-notice1.jpg"
+                alt="Notice"
+              />
+            </figure>
+            <div class="p-4">
+              <div class="flex items-center">
+                <figure>
+                  <svg
+                    class="text-gray-600 mr-2"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 1024 1024"
+                    height="15px"
+                    width="15px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M960 95.888l-256.224.001V32.113c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76h-256v-63.76c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76H64c-35.344 0-64 28.656-64 64v800c0 35.343 28.656 64 64 64h896c35.344 0 64-28.657 64-64v-800c0-35.329-28.656-63.985-64-63.985zm0 863.985H64v-800h255.776v32.24c0 17.679 14.32 32 32 32s32-14.321 32-32v-32.224h256v32.24c0 17.68 14.32 32 32 32s32-14.32 32-32v-32.24H960v799.984zM736 511.888h64c17.664 0 32-14.336 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32zm0 255.984h64c17.664 0 32-14.32 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.696 14.336 32 32 32zm-192-128h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32zm0-255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32zm-256 0h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32zm0 255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32z"
+                    ></path>
+                  </svg>
+                </figure>
+                <p class="text-sm text-gray-600">21 Apr, 2024</p>
+                <figure>
+                  <svg
+                    class="text-gray-600 ml-4 mr-2"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    height="15px"
+                    width="15px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="Clock_2">
+                      <g>
+                        <path
+                          d="M12,21.933A9.933,9.933,0,1,1,21.933,12,9.944,9.944,0,0,1,12,21.933ZM12,3.067A8.933,8.933,0,1,0,20.933,12,8.943,8.943,0,0,0,12,3.067Z"
+                        ></path>
+                        <path
+                          d="M18,12.5H12a.429.429,0,0,1-.34-.14c-.01,0-.01-.01-.02-.02A.429.429,0,0,1,11.5,12V6a.5.5,0,0,1,1,0v5.5H18A.5.5,0,0,1,18,12.5Z"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </figure>
+                <p class="text-sm text-gray-600">21 Apr, 2024</p>
+              </div>
+              <h2 class="mt-4 font-bold text-2xl">Admission 2024!</h2>
+              <p class="mt-2">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit
+                eius iure mollitia voluptatum reprehenderit accusamus. Suscipit
+                provident tempore qui hic.?
+              </p>
+              <div
+                class="text-center font-bold mt-5 cursor-pointer bg-secondary px-5 py-2 rounded-lg text-white hover:bg-hover"
+              >
+                <a href="#">Read More...</a>
+              </div>
+            </div>
+          </div>
+          <!-- Notice - 5 -->
+          <div class="bg-white w-96 shadow-xl rounded-xl">
+            <figure>
+              <img
+                class="rounded-tl-xl rounded-tr-xl"
+                src="https://images.template.net/wp-content/uploads/2017/05/fimg-notice1.jpg"
+                alt="Notice"
+              />
+            </figure>
+            <div class="p-4">
+              <div class="flex items-center">
+                <figure>
+                  <svg
+                    class="text-gray-600 mr-2"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 1024 1024"
+                    height="15px"
+                    width="15px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M960 95.888l-256.224.001V32.113c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76h-256v-63.76c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76H64c-35.344 0-64 28.656-64 64v800c0 35.343 28.656 64 64 64h896c35.344 0 64-28.657 64-64v-800c0-35.329-28.656-63.985-64-63.985zm0 863.985H64v-800h255.776v32.24c0 17.679 14.32 32 32 32s32-14.321 32-32v-32.224h256v32.24c0 17.68 14.32 32 32 32s32-14.32 32-32v-32.24H960v799.984zM736 511.888h64c17.664 0 32-14.336 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32zm0 255.984h64c17.664 0 32-14.32 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.696 14.336 32 32 32zm-192-128h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32zm0-255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32zm-256 0h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32zm0 255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32z"
+                    ></path>
+                  </svg>
+                </figure>
+                <p class="text-sm text-gray-600">21 Apr, 2024</p>
+                <figure>
+                  <svg
+                    class="text-gray-600 ml-4 mr-2"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    height="15px"
+                    width="15px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="Clock_2">
+                      <g>
+                        <path
+                          d="M12,21.933A9.933,9.933,0,1,1,21.933,12,9.944,9.944,0,0,1,12,21.933ZM12,3.067A8.933,8.933,0,1,0,20.933,12,8.943,8.943,0,0,0,12,3.067Z"
+                        ></path>
+                        <path
+                          d="M18,12.5H12a.429.429,0,0,1-.34-.14c-.01,0-.01-.01-.02-.02A.429.429,0,0,1,11.5,12V6a.5.5,0,0,1,1,0v5.5H18A.5.5,0,0,1,18,12.5Z"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </figure>
+                <p class="text-sm text-gray-600">21 Apr, 2024</p>
+              </div>
+              <h2 class="mt-4 font-bold text-2xl">Admission 2024!</h2>
+              <p class="mt-2">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit
+                eius iure mollitia voluptatum reprehenderit accusamus. Suscipit
+                provident tempore qui hic.?
+              </p>
+              <div
+                class="text-center font-bold mt-5 cursor-pointer bg-secondary px-5 py-2 rounded-lg text-white hover:bg-hover"
+              >
+                <a href="#">Read More...</a>
+              </div>
+            </div>
+          </div>
+          <!-- Notice - 6 -->
+          <div class="bg-white w-96 shadow-xl rounded-xl">
+            <figure>
+              <img
+                class="rounded-tl-xl rounded-tr-xl"
+                src="https://images.template.net/wp-content/uploads/2017/05/fimg-notice1.jpg"
+                alt="Notice"
+              />
+            </figure>
+            <div class="p-4">
+              <div class="flex items-center">
+                <figure>
+                  <svg
+                    class="text-gray-600 mr-2"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 1024 1024"
+                    height="15px"
+                    width="15px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M960 95.888l-256.224.001V32.113c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76h-256v-63.76c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76H64c-35.344 0-64 28.656-64 64v800c0 35.343 28.656 64 64 64h896c35.344 0 64-28.657 64-64v-800c0-35.329-28.656-63.985-64-63.985zm0 863.985H64v-800h255.776v32.24c0 17.679 14.32 32 32 32s32-14.321 32-32v-32.224h256v32.24c0 17.68 14.32 32 32 32s32-14.32 32-32v-32.24H960v799.984zM736 511.888h64c17.664 0 32-14.336 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32zm0 255.984h64c17.664 0 32-14.32 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.696 14.336 32 32 32zm-192-128h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32zm0-255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32zm-256 0h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32zm0 255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32z"
+                    ></path>
+                  </svg>
+                </figure>
+                <p class="text-sm text-gray-600">21 Apr, 2024</p>
+                <figure>
+                  <svg
+                    class="text-gray-600 ml-4 mr-2"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    height="15px"
+                    width="15px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="Clock_2">
+                      <g>
+                        <path
+                          d="M12,21.933A9.933,9.933,0,1,1,21.933,12,9.944,9.944,0,0,1,12,21.933ZM12,3.067A8.933,8.933,0,1,0,20.933,12,8.943,8.943,0,0,0,12,3.067Z"
+                        ></path>
+                        <path
+                          d="M18,12.5H12a.429.429,0,0,1-.34-.14c-.01,0-.01-.01-.02-.02A.429.429,0,0,1,11.5,12V6a.5.5,0,0,1,1,0v5.5H18A.5.5,0,0,1,18,12.5Z"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </figure>
+                <p class="text-sm text-gray-600">21 Apr, 2024</p>
+              </div>
+              <h2 class="mt-4 font-bold text-2xl">Admission 2024!</h2>
+              <p class="mt-2">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit
+                eius iure mollitia voluptatum reprehenderit accusamus. Suscipit
+                provident tempore qui hic.?
+              </p>
+              <div
+                class="text-center font-bold mt-5 cursor-pointer bg-secondary px-5 py-2 rounded-lg text-white hover:bg-hover"
+              >
+                <a href="#">Read More...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Notice Board End -->
+    </main>
+    <footer>
+
+    </footer>
   </body>
 </html>
