@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant College</title>
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'text': '#1c1c1c',
+                        'background': '#f5f0e6',
+                        'primary': '#13325b',
+                        'secondary': '#9f7944',
+                        'hover': '#8a693b',
+                        'accent': '#d4a373',
+                    },
+                }
+            }
+        }
+    </script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: "Lato", sans-serif;
+            color: #1c1c1c;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Merriweather", serif;
+        }
+        .bored {
+            border: 2px solid red;
+        }
+        .boreen {
+            border: 2px solid green;
+        }
+    </style>
+</head>
+
+<body class="bg-background px-5 boreen">
+    <!-- Navbar -->
+    <div class="container mx-auto py-5 flex justify-between items-center">
+        <!-- Logo -->
+        <div>
+            <img class="h-20 cursor-pointer"
+                src="https://raw.githubusercontent.com/Nayeem-33/asset-host/main/Elegent-Uni.png" alt="">
+        </div>
+        <!-- Nav links -->
+        <nav class="hidden lg:block">
+            <ul class="text-primary flex gap-5 items-center">
+                <li class="cursor-pointer hover:text-hover hover:underline"><a href="#">Home</a></li>
+                <li class="cursor-pointer hover:text-hover hover:underline"><a href="#">Academic</a></li>
+                <li class="cursor-pointer hover:text-hover hover:underline"><a href="#">Admission</a></li>
+                <li class="cursor-pointer hover:text-hover hover:underline"><a href="#">About Us</a></li>
+                <li class="cursor-pointer hover:text-hover hover:underline"><a href="#">Contact</a></li>
+                <li class="cursor-pointer bg-secondary px-5 py-2 rounded-lg text-white hover:bg-hover"><a href="#"></a>Login</li>
+            </ul>
+        </nav>
+        <!-- Mobile Nav Icon -->
+        <div class="lg:hidden">
+            <div tabindex="0" role="button" class="">
+                <svg xmlns="http://www.w3.org/2000/svg" class="" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
+                </svg>
+            </div>
+            <ul tabindex="0" class="">
+                <li class="cursor-pointer hover:text-hover hover:underline"><a href="#">Home</a></li>
+                <li class="cursor-pointer hover:text-hover hover:underline"><a href="#">Academic</a></li>
+                <li class="cursor-pointer hover:text-hover hover:underline"><a href="#">Admission</a></li>
+                <li class="cursor-pointer hover:text-hover hover:underline"><a href="#">About Us</a></li>
+                <li class="cursor-pointer hover:text-hover hover:underline"><a href="#">Contact</a></li>
+                <li class="cursor-pointer hover:text-hover hover:underline"><a href="#"></a>Login</li>
+            </ul>
+        </div>
+    </div>
+    <!-- Navbar End -->
+    <!-- Hero -->
+    <div class="container mx-auto rounded-xl bg-center bg-cover"
+        style="background-image: url('https://images.pexels.com/photos/2982449/pexels-photo-2982449.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');">
+        <div class="bg-sky-950/75 rounded-xl">
+            <div class="py-52 flex flex-col gap-6 items-center justify-center">
+                <h1 class="font-extrabold text-secondary text-6xl text-center">Elegent University</h1>
+                <p class="text-center text-white w-11/12 lg:w-2/3">Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Culpa unde animi, vitae ab reiciendis eaque quis adipisci placeat aspernatur. Quae, omnis!
+                    Repellendus rerum sint soluta cupiditate ipsam, quod error vero.</p>
+                <div class="flex gap-5 text-xl font-bold">
+                    <div class="cursor-pointer bg-secondary px-5 py-2 rounded-lg text-white hover:bg-hover"><a
+                            href="#">Enroll Today</a></div>
+                    <div
+                        class="cursor-pointer border-2 border-accent px-5 py-2 rounded-lg text-accent hover:bg-hover hover:text-white">
+                        <a href="#">Explore More</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+    <!-- Dean's Massage -->
+    <div class="container mx-auto py-10 lg:py-28">
+    <div class="flex flex-col gap-6 items-center justify-center mb-60 lg:mb-20 boreen">
+        <h1 class="font-extrabold text-secondary text-5xl text-center">Important Massage</h1>
+        <p class="text-center w-11/12 lg:w-2/3">Lorem ipsum dolor sit, amet consectetur adipisicing
+            elit. Culpa unde animi, vitae ab reiciendis eaque quis adipisci placeat aspernatur.</p>
+    </div>
+        
+        <div class="bg-white p-5 lg:p-10 pt-56 lg:pt-10 lg:pl-80 2xl:pl-[450] ml-0 lg:ml-20 xl:ml-40 rounded-xl relative ">
+            <div class="bg-secondary rounded-xl absolute -top-48 lg:-top-10 left-1/2 transform -translate-x-1/2 lg:translate-x-0 lg:-left-20 xl:-left-40 w-3/5 lg:w-2/5 p-5">
+                <div>
+                    <img class="rounded-lg" src="https://getweeklyupdate.com/blog/wp-content/uploads/2018/02/27.jpg" alt="">
+                </div>
+                <div class="mt-3">
+                    <h2 class="text-center font-extrabold text-2xl text-white">Mohammed Fazlul Haque</h2>
+                    <p class="text-center font-bold text-lg text-white">Important Person</p>
+                </div>
+            </div>
+            <p class="text-justify leading-relaxed md:leading-loose">
+                Dear Students, Faculty, and Visitors, <br><br>
+                Welcome to Elegant University, where tradition meets innovation, and the pursuit of knowledge is paired with a dedication to shaping the future. As the Vice-Chancellor, I am honored to lead a community committed to excellence in teaching, research, and service. <br>
+                At Elegant University, we cultivate an environment where creativity and critical thinking flourish. Our faculty are not only experts in their fields but also passionate educators, devoted to guiding our students on their academic and professional journeys. We encourage our students to challenge the status quo, think globally, and act with integrity and responsibility. <br>
+                Thank you for visiting our website. I invite you to explore the many opportunities and resources that Elegant University offers. Together, we can continue to make a positive impact on society and inspire the next generation of leaders. <br><br>
+                Warm regards, <br>
+                <strong>Abul Hasnat Chowdhury <br>
+                Vice-Chancellor <br>
+                Elegant University</strong>
+            </p>
+
+        </div>
+    </div>
+        <!-- Notice Board -->
+        <div class="container mx-auto py-10 lg:py-28">
+            <div class="flex flex-col gap-6 items-center justify-center">
+                <h1 class="font-extrabold text-secondary text-5xl text-center">Notice Board</h1>
+                <p class="text-center w-11/12 lg:w-2/3">Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Culpa unde animi, vitae ab reiciendis eaque quis adipisci placeat aspernatur.</p>
+            </div>
+            <div>
+
+
+                <div class="bg-base-100 w-96 shadow-xl">
+                    <figure>
+                      <img
+                        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="p">
+                      <h2 class="">Admission 2024!</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div class="cursor-pointer bg-secondary px-5 py-2 rounded-lg text-white hover:bg-hover"><a
+                        href="#">Read More</a></div>
+                    </div>
+                  </div>
+
+
+            </div>
+
+        </div>
+
+    
+</body>
+
+</html>
