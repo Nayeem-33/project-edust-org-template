@@ -53,9 +53,9 @@
     </style>
   </head>
 
-  <body class="bg-background px-5 bored">
+  <body class="bg-background">
     <!-- Navbar -->
-    <header id="top">
+    <header id="top" class="px-5">
       <div
         class="container mx-auto max-w-7xl py-5 flex justify-between items-center"
       >
@@ -136,7 +136,7 @@
       </div>
     </header>
     <!-- Navbar End -->
-    <main>
+    <main class="px-5">
       <!-- Hero -->
       <div
         class="container mx-auto max-w-7xl rounded-xl bg-center bg-cover"
@@ -174,7 +174,7 @@
       <!-- Dean's Massage -->
       <div class="container mx-auto max-w-7xl py-10 lg:py-28">
         <div
-          class="flex flex-col gap-6 items-center justify-center mb-60 lg:mb-20"
+          class="flex flex-col gap-6 items-center justify-center"
         >
           <h1 class="font-extrabold text-secondary text-5xl text-center">
             Important Massage
@@ -186,19 +186,19 @@
         </div>
 
         <div
-          class="bg-white p-5 lg:p-10 pt-56 lg:pt-10 lg:pl-80 2xl:pl-[450] ml-0 lg:ml-20 xl:ml-40 rounded-xl relative"
+          class="mt-5 lg:mt-10 flex flex-col items-center lg:items-start lg:flex-row gap-5"
         >
           <div
-            class="bg-secondary rounded-xl absolute -top-48 lg:-top-10 left-1/2 transform -translate-x-1/2 lg:translate-x-0 lg:-left-20 xl:-left-40 w-3/5 lg:w-2/5 p-5"
+            class="w-3/5 lg:w-2/5"
           >
-            <div>
+            <div class="bg-secondary rounded-lg p-4">
               <img
-                class="rounded-lg"
+                class="rounded-md"
                 src="https://getweeklyupdate.com/blog/wp-content/uploads/2018/02/27.jpg"
                 alt=""
               />
             </div>
-            <div class="mt-3">
+            <div class="mt-3 bg-secondary rounded-lg p-4">
               <h2 class="text-center font-extrabold text-2xl text-white">
                 Mohammed Fazlul Haque
               </h2>
@@ -207,29 +207,31 @@
               </p>
             </div>
           </div>
-          <p class="text-justify leading-relaxed md:leading-loose">
-            Dear Students, Faculty, and Visitors, <br /><br />
-            Welcome to Elegant University, where tradition meets innovation, and
-            the pursuit of knowledge is paired with a dedication to shaping the
-            future. As the Vice-Chancellor, I am honored to lead a community
-            committed to excellence in teaching, research, and service. <br />
-            At Elegant University, we cultivate an environment where creativity
-            and critical thinking flourish. Our faculty are not only experts in
-            their fields but also passionate educators, devoted to guiding our
-            students on their academic and professional journeys. We encourage
-            our students to challenge the status quo, think globally, and act
-            with integrity and responsibility. <br />
-            Thank you for visiting our website. I invite you to explore the many
-            opportunities and resources that Elegant University offers.
-            Together, we can continue to make a positive impact on society and
-            inspire the next generation of leaders. <br /><br />
-            Warm regards, <br />
-            <strong
-              >Abul Hasnat Chowdhury <br />
-              Vice-Chancellor <br />
-              Elegant University</strong
-            >
-          </p>
+          <div class="mt-0 lg:mt-20 w-full lg:w-w-3/5 bg-white p-5 lg:p-10 rounded-xl">
+            <p class="text-justify leading-relaxed md:leading-loose">
+              Dear Students, Faculty, and Visitors, <br /><br />
+              Welcome to Elegant University, where tradition meets innovation, and
+              the pursuit of knowledge is paired with a dedication to shaping the
+              future. As the Vice-Chancellor, I am honored to lead a community
+              committed to excellence in teaching, research, and service. <br />
+              At Elegant University, we cultivate an environment where creativity
+              and critical thinking flourish. Our faculty are not only experts in
+              their fields but also passionate educators, devoted to guiding our
+              students on their academic and professional journeys. We encourage
+              our students to challenge the status quo, think globally, and act
+              with integrity and responsibility. <br />
+              Thank you for visiting our website. I invite you to explore the many
+              opportunities and resources that Elegant University offers.
+              Together, we can continue to make a positive impact on society and
+              inspire the next generation of leaders. <br /><br />
+              Warm regards, <br />
+              <strong
+                >Abul Hasnat Chowdhury <br />
+                Vice-Chancellor <br />
+                Elegant University</strong
+              >
+            </p>
+          </div>
         </div>
       </div>
       <!-- News & Updates -->
@@ -743,33 +745,59 @@
       </div>
       <!-- Achivements Ends -->
       <!-- About University -->
-      <div class="container mx-auto max-w-7xl py-10 lg:py-28 flex flex-col xl:flex-row-reverse items-center gap-6">
-        
+      <div
+        class="container mx-auto max-w-7xl py-10 lg:py-28 flex flex-col xl:flex-row-reverse items-center gap-6"
+      >
         <!-- Video Section -->
-        <div class="flex-1 relative w-full h-full flex items-center justify-center overflow-hidden rounded-lg border border-gray-700">
-          <video src="https://videos.pexels.com/video-files/2002527/2002527-hd_1920_1080_30fps.mp4" autoplay muted loop class="object-cover w-full h-full"></video>
+        <div
+          class="flex-1 relative w-full h-full flex items-center justify-center overflow-hidden rounded-lg border border-gray-700"
+        >
+          <video
+            src="https://videos.pexels.com/video-files/2002527/2002527-hd_1920_1080_30fps.mp4"
+            autoplay
+            muted
+            loop
+            class="object-cover w-full h-full"
+          ></video>
           <div class="absolute bottom-4 right-4">
-            <button class="bg-secondary text-white py-2 px-4 rounded focus:outline-none">
+            <button
+              class="bg-secondary text-white py-2 px-4 rounded focus:outline-none"
+            >
               Pause
             </button>
           </div>
         </div>
-        
+
         <!-- Text Section -->
         <div class="flex-1 flex flex-col justify-center p-4">
-          <h2 class="font-extrabold text-secondary text-4xl">Welcome to Elegant University</h2>
+          <h2 class="font-extrabold text-secondary text-4xl">
+            Welcome to Elegant University
+          </h2>
           <p class="mt-5 text-justify">
-            We are delighted to extend a warm welcome to you as you join us at Elegant University, a place where excellence in education meets an inspiring environment.
-            At Elegant University, we believe in nurturing the mind, challenging the intellect, and fostering a community that thrives on collaboration and innovation. Our commitment to academic excellence, cutting-edge research, and holistic development ensures that every member of our university is equipped to achieve their fullest potential.
-            As you embark on this journey with us, you will discover a vibrant campus life, state-of-the-art facilities, and a supportive network of educators and peers. Whether you are here to explore new disciplines, advance your knowledge, or contribute to groundbreaking research, we are dedicated to providing you with the tools and opportunities you need to succeed.
-            We encourage you to immerse yourself in the rich tapestry of experiences that Elegant University has to offer. Engage with your peers, challenge yourself academically, and take advantage of the numerous opportunities for personal and professional growth.
+            We are delighted to extend a warm welcome to you as you join us at
+            Elegant University, a place where excellence in education meets an
+            inspiring environment. At Elegant University, we believe in
+            nurturing the mind, challenging the intellect, and fostering a
+            community that thrives on collaboration and innovation. Our
+            commitment to academic excellence, cutting-edge research, and
+            holistic development ensures that every member of our university is
+            equipped to achieve their fullest potential. As you embark on this
+            journey with us, you will discover a vibrant campus life,
+            state-of-the-art facilities, and a supportive network of educators
+            and peers. Whether you are here to explore new disciplines, advance
+            your knowledge, or contribute to groundbreaking research, we are
+            dedicated to providing you with the tools and opportunities you need
+            to succeed. We encourage you to immerse yourself in the rich
+            tapestry of experiences that Elegant University has to offer. Engage
+            with your peers, challenge yourself academically, and take advantage
+            of the numerous opportunities for personal and professional growth.
           </p>
-          <button class="bg-secondary text-white py-2 px-4 rounded focus:outline-none mt-5">
+          <button
+            class="bg-secondary text-white py-2 px-4 rounded focus:outline-none mt-5"
+          >
             Read more ...
           </button>
         </div>
-    
-        
       </div>
       <!-- About University Ends-->
       <!-- Notice Board -->
@@ -1188,7 +1216,7 @@
     </main>
     <footer class="bg-primary py-10 px-5 lg:py-28">
       <div
-        class="container mx-auto max-w-7xl grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 justify-center lg:justify-between items-center gap-20"
+        class="container mx-auto max-w-7xl px-5 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 justify-center lg:justify-between items-center gap-20"
       >
         <div>
           <figure class="bg-white p-2 rounded-lg">
@@ -1285,7 +1313,7 @@
             </div>
           </div>
         </div>
-        <div class="text-white text-lg font-medium flex flex-col gap-5">
+        <div class="text-white text-lg font-medium flex flex-col gap-5 text-center lg:text-left">
           <h2 class="font-extrabold text-2xl mb-5 lg:mb-8">Useful Links 1</h2>
           <p>Link 1</p>
           <p>Link 2</p>
@@ -1293,7 +1321,7 @@
           <p>Link 4</p>
           <p>Link 5</p>
         </div>
-        <div class="text-white text-lg font-medium flex flex-col gap-5">
+        <div class="text-white text-lg font-medium flex flex-col gap-5 text-center lg:text-left">
           <h2 class="font-extrabold text-2xl mb-5 lg:mb-8">Useful Links 2</h2>
           <p>Link 1</p>
           <p>Link 2</p>
@@ -1301,7 +1329,7 @@
           <p>Link 4</p>
           <p>Link 5</p>
         </div>
-        <div class="flex flex-col gap-6">
+        <div class="flex flex-col gap-6 items-center">
           <div
             class="cursor-pointer text-center text-lg font-semibold bg-secondary w-60 py-2 rounded-lg text-white hover:bg-hover"
           >
